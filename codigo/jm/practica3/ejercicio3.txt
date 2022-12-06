@@ -1,0 +1,9 @@
+<!doctype html>
+<head>
+<script> alert("¡ALERTA!! SI NO TIENES ACTIVADO EL SOPORTE DE JAVASCRIPT, ACTÍVALO")</script>
+<title> Ejercicio 3</title>
+</head>
+<body>
+</body>
+<script src="arraymeses.js"></script>
+</html>
