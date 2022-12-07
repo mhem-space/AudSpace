@@ -1,0 +1,147 @@
+h1{font-family: "Audiowide", "Cooper Black", "Comic Sans MS",arial;}
+h2{font-family: "Audiowide", "Cooper Black", "Comic Sans MS",arial;}
+h3{font-family:  impact, "times new roman";}
+#practicass .lista { float: left; width: 40%; margin: 10px 5%; background-color: #E9F4F9; }
+
+
+#practicas li { font-size: 0.9em; text-align: left; margin: 0.3em 4em; }
+#practicas h3+p+p+p{margin: 0.5em 5em; text-align: left; font-size: 0.9em; color: red; font-weight: bold;}
+
+#practicas1 li { list-style-type: square; }
+#practicas2 li { list-style-type: black circle; }
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+/* cover */
+#cover {
+    background: #222 url('../img/cascos.gif') center center no-repeat;
+    background-size: cover;
+    color: #f5ebe0;
+    height: 53vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
+}
+
+#cover-texto {
+    width: 100%;
+}
+
+#cover-texto h1
+{
+    font-size: 8.5vw;
+    font-family: 'Audiowide';
+    opacity: .8;
+}
+
+#cover-texto .form-inline{
+    width: 100%;
+}
+
+/* cover Principal */
+#coverPrincipal {
+    background: #222 url('../img/cascos.gif') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.coverImagen
+{
+    font-family: 'Audiowide';
+    color: #f5ebe0;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
+}
+
+.coverPrincipal-texto 
+{
+    font-family: 'Audiowide';
+    font-size: 3vw;
+    color: #f5ebe0;
+    text-align: center;
+    align-items: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
+    padding-top: 7vw;
+}
+
+.coverBotones
+{
+    justify-content: center;
+}
+
+.contenido-seccion {
+    padding: 20px 0 10px 0;
+}
+
+#carouselExampleIndicators .carousel-item img
+{
+    height: 40vw;
+}
+
+#carouselExampleIndicators .carousel-item .carousel-caption h5
+{
+    font-family: 'Audiowide';
+    font-size: 5vw;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: #edede9;
+}
+
+.videoContainer
+{
+    height: 400px;
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerEjemplos 
+{
+    width: 100%;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+.btn:hover
+{
+    background: white;
+    color: #0a58ca;
+    font-weight: bold;
+    border-width: 2px;
+}
+
+#footer-main a:hover
+{
+    color: #CCFC09;
+}
