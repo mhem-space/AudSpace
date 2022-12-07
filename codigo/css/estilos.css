@@ -50,6 +50,43 @@ img {
     width: 100%;
 }
 
+/* cover Principal */
+#coverPrincipal {
+    background: #222 url('../img/cascos.gif') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.coverImagen
+{
+    font-family: 'Audiowide';
+    color: #f5ebe0;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
+}
+
+.coverPrincipal-texto 
+{
+    font-family: 'Audiowide';
+    font-size: 3vw;
+    color: #f5ebe0;
+    text-align: center;
+    align-items: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
+    padding-top: 7vw;
+}
+
+.coverBotones
+{
+    justify-content: center;
+}
 
 .contenido-seccion {
     padding: 20px 0 10px 0;
